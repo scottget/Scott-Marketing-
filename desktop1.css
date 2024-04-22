@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav{
+    line-height: 30px;
+    width: 100%;
+   
+    color: white;
+  
+}
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 120px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+.top{
+    background-image: url(project2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+.top h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.bhalf{
+    color: white;
+    width: 80%;
+    margin-left: 20%;
+    height: 60vh;
+}
+.search{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    padding-top: 10px;
+    margin-left: 70px;
+}
+.empty{
+    width: 40vh;
+    height: 7vh;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #28092E;
+}
+.text{
+    width: 40vh;
+    height: 7vh;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #28092E;
+    color: white;
+    font-size: 20px;
+}
+.intro{
+    width: 100%;
+
+}
+.intro h1{
+    color: #760C87;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.intro p{
+    font-size: 17px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.last{
+    width: 100%;
+    display: flex;
+    height: 20vh;
+    color: white;
+}
+.container{
+    margin-left: 30vh;
+    height: 100%;
+    width: 30vh;
+}
+.img1{
+    height: 15vh;
+    width: 15vh;
+    background-image: url(codelogo1.png);
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    height: 15vh;
+    width: 15vh;
+    background-image: url(messagelogo.png);
+    background-position: center;
+    background-size: cover;
+}
+.img3{
+    height: 15vh;
+    width: 15vh;
+    background-image: url(chartobt.png);
+    background-position: center;
+    background-size: cover;
+}
+.img4{
+    height: 15vh;
+    width: 15vh;
+    background-image: url(gearinglogo.png);
+    background-position: center;
+    background-size: cover;
+}
+.astro{
+    float: left;
+    height: 30px;
+    width: 30px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+}
